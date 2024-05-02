@@ -1,0 +1,468 @@
+.coverline1{
+  height: 10px;
+  width: 100vw;
+  background-color: #b52318;
+}
+.coverline2{
+  margin-top: 5px;
+  height: 10px;
+  width: 100vw;
+  background-color: #b52318;
+}
+.container{
+  margin-top: 70px;
+  height: 68vh;
+  display: flex;
+  width: 150vw; 
+}
+.imagecontainer{
+  height: 100%;
+  width: 55%;
+  margin: 0 50px 0 0;
+}
+.coverimage{
+  height: 100%;
+  width: 100%;
+}
+.contentcontainer{
+  width: 45%;
+  height: 100%;
+  
+}
+.heading{
+  width: 70%;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.heading img{
+  width: 100%;
+}
+
+.logincontainer{
+  height: 84%;
+  margin: 0 50px;
+  padding-right: 60px;
+}
+.install{
+  height: 17%;
+  width: 100%;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.playstore{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 38%;
+  border: none;
+  flex: 1; 
+  margin-left: 20px;
+}
+.playstore img{
+  width: 100%;
+  padding-left: 6px;
+
+}
+.appstore{
+  display: flex; 
+  align-items: center;
+  height: 100%;
+  width: 38%;
+  border: none;
+  flex: 1;
+}
+.appstore img{
+  width: 100%;
+  padding-right: 6px;
+}
+
+.about{
+  background-color: #b52318;
+  width: 100%;
+  height: 5vh;
+  padding: 5px 0 0 0 ;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  justify-content: center;
+}
+.formwrapper{
+  background-color: #181818;
+  height: 72%;
+}
+.fill{
+  margin: 10px  30px 30px 30px;
+  padding-top: 25px;
+  align-items: center; 
+}
+.fill input{
+  font-size: 15px;
+  display: flex;
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	width: 100%;
+	border: none;
+	background: transparent;
+	font: 14px Arial, Helvetica, sans-serif;
+  height: 40px;
+  color: #fff;
+  padding-bottom: 0;
+}
+.fa-user, .fa-solid, .fa-lock{
+  color: #fff;
+  padding: 10px 13px 0 2px;
+  margin-bottom: 0;
+}
+.usernameinput{
+  display: flex;
+  border-bottom: 1px solid #fff;
+}
+
+.loginbutton{
+  background-color: #b52318;
+  width: 100%;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 0;
+  margin: 10px 0 12px 0;
+}
+.form-error{
+  color: #fff;
+  font-size: 11px;
+  width: 500px;
+  margin-bottom: 0;
+}
+.register{
+  display: flex;
+  font-size: 10px;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.register p{
+  height: 13px;
+  padding-top: 7px;
+}
+.register button{
+  background-color: #b52318;
+  color: #fff;
+  border: none;
+  padding: 5px 10px; 
+}
+.recovery{
+  display: flex;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+.recovery p{
+  height: 13px; 
+  padding-top: 7px;
+}
+.recovery button{
+  background-color: #b52318;
+  color: #fff;
+  border: none;
+  margin: 3px 0;
+  padding: 5px 10px; 
+}
+
+.footer{
+  color: rgb(34, 34, 34);
+  font-size: 10px;
+  text-align: center;
+  margin-top: 80px;
+}
+@media (min-width: 1024px) and (max-width: 1100px){
+  .container{
+    width: 100%; 
+    margin: 100px 0 0 0;
+    height: 68vh;
+    display: flex;
+    
+  }
+  .imagecontainer{
+    height: auto;
+    width: 60%;
+    margin: 0;
+
+  }
+  .coverimage{
+    align-items: center;
+    height: auto;
+    padding: 100px 0 0 30px;
+  }
+  .contentcontainer{
+    width: 40%;
+    height: 100%;
+    
+  }
+  .logincontainer{
+    padding: 0 10px;
+    margin: 0;
+  }
+  .about{
+    padding-top: 11px;
+  }
+  .formwrapper{
+    background-color: #181818;
+    height: 62%;
+  }
+  .register{
+    font-size: 10px;
+    margin-top: 15px;
+    
+  }
+  .loginbutton{
+    font-size: 12px;
+    margin-top: 10px;
+    
+  }
+
+}
+@media (min-width: 654px) and (max-width: 1000px) {
+  
+  .container{
+    width: 100%; 
+    margin: 120px 0 0 0;
+    height: 68vh;
+    display: flex;
+    
+  }
+  .imagecontainer{
+    height: auto;
+    width: 60%;
+    margin: 0;
+
+  }
+  .coverimage{
+    align-items: center;
+    height: auto;
+    padding: 100px ;
+  }
+  .contentcontainer{
+    width: 40%;
+    height: auto;
+    
+  }
+  .heading{
+    width: 70%;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  .heading img{
+    width: 100%;
+  }
+  
+  .logincontainer{
+    padding: 0;
+    margin: 0;
+  }
+  .install{
+    margin-bottom: 8px;
+   
+  }
+  .about{
+    font-size: 12px;
+    
+  }
+  .formwrapper{
+    background-color: #181818;
+    height: 62%;
+  }
+  .fill{
+    margin: 10px  30px 30px 30px;
+    padding-top: 25px;
+    align-items: center; 
+  }
+  
+  
+  .loginbutton{
+    font-size: 12px;
+  }
+ 
+  .register{
+    font-size: 9px;
+    margin-top: 10px;
+    
+  }
+  .register p{
+    height: 13px;
+    padding-top: 7px;
+  }
+  .register button{
+    padding: 2px 8px; 
+  }
+  .recovery{
+    margin-top: 3px;
+    font-size: 9px;
+  }
+  .recovery p{
+    height: 13px; 
+    padding-top: 7px;
+  }
+  .recovery button{
+    padding: 2px 8px;
+    }
+  
+  
+}
+
+@media (max-width: 654px)  {
+  .container{
+  width: 100%; 
+  height: auto;
+  }
+  .imagecontainer{
+    display: none;
+
+  }
+  .contentcontainer{
+    width: 100%;
+    height: auto;
+
+  }
+  .heading{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 5px;
+  }
+  .logincontainer{
+    height: auto;
+    margin: 0 30px;
+    padding: 3px;
+  }
+  .install{
+    margin: 2px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .playstore{
+    display: flex;
+    width: 38%;
+    border: none;
+    flex: 1; 
+    margin-left: 20px;
+  }
+  .playstore img{
+    width: 100%;
+    padding-left: 6px;
+  }
+  .appstore{
+    display: flex; 
+    width: 38%;
+    border: none;
+    flex: 1;
+  }
+  .appstore img{
+    width: 100%;
+    padding-right: 6px;
+  }
+  
+  .about{
+    background-color: #b52318;
+    padding-top: 10px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    justify-content: center;
+  }
+  .formwrapper{
+    background-color: #181818;
+  }
+  .fill{
+    margin: 10px  30px 30px 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center; 
+  }
+  .fill input{
+    
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    padding-bottom: 0;
+  }
+  .fa-user, .fa-solid, .fa-lock{
+    color: #fff;
+    padding: 10px 13px 0 2px;
+    margin-bottom: 0;
+  }
+  .usernameinput{
+    display: flex;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .loginbutton{
+    background-color: #b52318;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 0;
+    margin: 10px 0 12px 0;
+  }
+  .form-error{
+    color: #fff;
+    font-size: 11px;
+    width: 500px;
+    margin-bottom: 0;
+  }
+  .recovery{
+    display: flex;
+    margin-top: 5px;
+    font-size: 10px;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .register{
+    display: flex;
+    font-size: 10px;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .recovery p{
+    height: 5px;
+    
+  }
+  .register p{
+    height: 5px;
+  }
+  .register button{
+    background-color: #b52318;
+    color: #fff;
+    border: none;
+    padding: 2px 5px;
+  
+  }
+  .recovery button{
+    background-color: #b52318;
+    color: #fff;
+    border: none;
+    margin: 3px 0;
+    padding: 2px 5px; 
+  }
+  
+  .footer{
+    color: rgb(34, 34, 34);
+    font-size: 10px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  }
+
+

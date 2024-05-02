@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Sans&family=Sofia+Sans+Extra+Condensed:wght@200;700&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.ratio {
+   aspect-ratio: 50%;
+   height: 50vh;
+   
+  }
+  .modal{
+    display: none;
+
+  }
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  height: 60px;
+}
+.wrapper{
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+
+}
+  .left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 15%;
+  }
+  .center{
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0;
+    width: 33%;
+  
+  }
+  .right{
+    width: 30%;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    padding-left: 30px;
+  }
+  .logo{
+    height: 45px;
+    width: 150px;
+    padding-left: 30px;
+  
+  }
+  ul{
+    display: flex;
+    padding: 0;
+  }
+  li{
+    padding-left: 20px;
+    color: #1D4289;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .btn{
+    background-color: #1D4289;
+    height: 40px;
+   
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.15);
+    }
+.sliderContainer{
+  height: 80vh;
+  width: 100vw;
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+}
+.sliderWrapper{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  transition: opacity ease-in-out 0.4s;
+    
+  }
+.nlContainer{
+  height: 60vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  flex-direction: column;
+}
+.nlTitle{
+  font-size: 40px;
+  margin: 20px;
+}
+.nlButton{
+  background-color: #f0353b;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nlInput{
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  margin-right: 10px;
+  padding: 20px;
+  font-size: 20px;
+  width: 100%;
+}
+.nlInputContainer{
+  width: 45%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.nlDesc{
+  font-size:25px;
+  margin-bottom:20px;
+  font-weight: 400;
+}
+.nlIcon{
+  color: #D10000;
+}
+.active{
+  color: #D10000;
+}
+.fContainer{
+  
+    background-color: #1D4289;
+}
+.fWrapper{
+  display: flex;
+padding: 20px;
+background-color: #1D4289;
+align-items: center;
+justify-content: center;
+}
+.fTitle{
+  
+  padding: 15px 0px;
+  color: white;
+  text-align: center;
+}
+.fListitems{
+  list-style: none;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.fIcons{
+  margin-top: 30px;
+  color: white;
+  padding: 0px;
+  background-color: #f0353b;
+  height: 40px;
+  width: 40px;
+  margin-left: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 3px
+}
+.fSocialContainer{
+  display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 20px;
+}
+
+.datahead{
+  margin: 30px 0;
+  color: #004270;
+}
+.userdatatable{
+  padding: 0 80px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  padding-left:50px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #0096FF;
+  color: white;
+}
+
+
+
